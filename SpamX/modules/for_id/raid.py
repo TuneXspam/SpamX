@@ -107,7 +107,7 @@ async def draid(SpamX: Client, e: Message):
            await e.reply_text("User not in Raid list!")
            return
          RUSERs.remove(user.id)
-      await e.reply_text(f"Reply Raid Activated Successfully On User {user.mention}")
+      await e.reply_text(f"Reply Raid Deactivated Successfully On User {user.mention}")
       
       if LOGS_CHANNEL:
          try:
